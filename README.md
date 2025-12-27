@@ -1,3 +1,7 @@
+# ATENÇÃO: 
+
+## Este repositório está em produção pois preciso estudar banco de dados antes, quando estiver tudo pronto ele será atualizado.
+
 # Projeto Integrador II
 
 ### Este repositório possui as atividades do tutorial de Django do professor Fábio Longo de Moura em projeto integrador II.
