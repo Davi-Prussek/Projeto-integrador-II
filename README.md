@@ -1,6 +1,7 @@
 # ATENÇÃO: 
 
-## Este repositório está em produção pois preciso estudar banco de dados antes, quando estiver tudo pronto ele será atualizado.
+> **Nota:** Estou terminando as atividades do repositório.  
+> Algumas funcionalidades e exercícios ainda estão em andamento. 
 
 # Projeto Integrador II
 
