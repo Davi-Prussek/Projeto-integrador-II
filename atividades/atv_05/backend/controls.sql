@@ -1,1 +1,0 @@
-show tables from atividade_05
