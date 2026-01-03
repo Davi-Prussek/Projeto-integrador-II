@@ -96,6 +96,8 @@ class Quarto(models.Model):
     id_quarto = models.AutoField(primary_key=True)
     numero = models.IntegerField()
     preco = models.DecimalField(max_digits=8, decimal_places=2)
+    curtidas = models.IntegerField(blank=True, null=True)
+    img = models.CharField(max_length=500)
 
     class Meta:
         managed = False
@@ -103,9 +105,11 @@ class Quarto(models.Model):
 
     def __str__(self):
         return format_html(
-            '<strong>Quarto</strong> <ul><li>numero: {}</li><li>preco: R${}</li></ul>',
+            '<strong>Quarto</strong> <ul><li>numero: {}</li><li>preco: R${}</li><li>curtidas: {}</li><li>img: {}</li></ul>',
             self.numero,
-            self.preco
+            self.preco,
+            self.curtidas,
+            self.img
         )
 
 class Reserva(models.Model):
