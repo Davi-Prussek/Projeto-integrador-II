@@ -11,7 +11,10 @@
 
 ## NOTA:
 
-Para ter uma base de conhecimento para entender o repositório e o seu conteúdo, você pode escolher ver o próprio tutorial de Django do professor Fábio Longo de Moura, onde você irá aprender a usar o framework. Caso deseje ir, clique [aqui.](https://github.com/ldmfabio/ProjetoIntegrador.git)
+> Para ter uma base de conhecimento de backend para entender o repositório e o seu conteúdo, você pode escolher ver o próprio tutorial de Django do professor Fábio Longo de Moura, onde você irá aprender a usar o framework. Caso deseje ir, clique [aqui.](https://github.com/ldmfabio/ProjetoIntegrador.git)
+
+> Para ter uma base de conhecimento de frontend para entender o repositório e o seu conteúdo, você pode escolher ver o próprio tutorial de Vue.JS do professor Eduardo da Silva, onde você irá aprender a usar o framework,
+caso deseje ir, clique [aqui.](https://eduardo-da-silva.github.io/desenvolvimento-web/)
 
 #
 
