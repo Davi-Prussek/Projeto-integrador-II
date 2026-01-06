@@ -1,6 +1,6 @@
 <script setup>
-import hollowComponent from '@/components/hollowComponent.vue';
+import roomComponent from '@/components/roomComponent.vue';
 </script>
 <template>
-<hollowComponent/>
+<roomComponent/>
 </template>

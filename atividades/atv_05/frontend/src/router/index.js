@@ -21,6 +21,11 @@ const router = createRouter({
       name: "Quartos",
       component: roomView
     },
+    {
+      path: "/Adicionar",
+      name: "Adicionar",
+      component: () => import("@/views/adminView.vue")
+    }
   ],
 })
 
