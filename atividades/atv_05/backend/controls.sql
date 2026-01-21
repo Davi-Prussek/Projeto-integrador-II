@@ -1,1 +1,1 @@
-/* Este arquivo tem o uso destinado somente para controlar o banco de dados */
+/* Este arquivo tem o uso destinado somente para controlar o banco de dados pelo vscode*/
