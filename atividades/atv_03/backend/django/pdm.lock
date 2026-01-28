@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:5553ea418aa25ae0bfb41c086b9973c2a674d2af7be468dfdf2c196fdf294171"
+content_hash = "sha256:347a2877ccf397542095f0e90560589810f057d7b0bd5944ccfc6427f52e021f"
 
 [[metadata.targets]]
 requires_python = ">=3.9"
@@ -51,6 +51,20 @@ files = [
 ]
 
 [[package]]
+name = "djangorestframework"
+version = "3.16.1"
+requires_python = ">=3.9"
+summary = "Web APIs for Django, made easy."
+groups = ["default"]
+dependencies = [
+    "django>=4.2",
+]
+files = [
+    {file = "djangorestframework-3.16.1-py3-none-any.whl", hash = "sha256:33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec"},
+    {file = "djangorestframework-3.16.1.tar.gz", hash = "sha256:166809528b1aced0a17dc66c24492af18049f2c9420dbd0be29422029cfc3ff7"},
+]
+
+[[package]]
 name = "mysqlclient"
 version = "2.2.7"
 requires_python = ">=3.8"
@@ -68,6 +82,18 @@ files = [
 ]
 
 [[package]]
+name = "simplejwt"
+version = "2.0.1"
+summary = "A dead simple JWT library"
+groups = ["default"]
+dependencies = [
+    "typing",
+]
+files = [
+    {file = "simplejwt-2.0.1.tar.gz", hash = "sha256:3d9054c3f6c8ebca49693568b483f4bafcfdf962fe9e60f5bf0855bdc19761a2"},
+]
+
+[[package]]
 name = "sqlparse"
 version = "0.5.5"
 requires_python = ">=3.8"
@@ -76,6 +102,16 @@ groups = ["default"]
 files = [
     {file = "sqlparse-0.5.5-py3-none-any.whl", hash = "sha256:12a08b3bf3eec877c519589833aed092e2444e68240a3577e8e26148acc7b1ba"},
     {file = "sqlparse-0.5.5.tar.gz", hash = "sha256:e20d4a9b0b8585fdf63b10d30066c7c94c5d7a7ec47c889a2d83a3caa93ff28e"},
+]
+
+[[package]]
+name = "typing"
+version = "3.7.4.3"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+summary = "Type Hints for Python"
+groups = ["default"]
+files = [
+    {file = "typing-3.7.4.3.tar.gz", hash = "sha256:1187fb9c82fd670d10aa07bbb6cfcfe4bdda42d6fab8d5134f04e8c4d0b71cc9"},
 ]
 
 [[package]]

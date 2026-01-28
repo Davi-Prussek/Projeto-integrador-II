@@ -1,3 +1,10 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+admin.site.register(propriedade)
+admin.site.register(cultura)
+admin.site.register(plantio)
+admin.site.register(colheita)
+admin.site.register(insumo)
+admin.site.register(uso_insumo)
+admin.site.register(funcionario)
