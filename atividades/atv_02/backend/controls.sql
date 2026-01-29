@@ -1,0 +1,1 @@
+SHOW TABLEs from atividade_02
