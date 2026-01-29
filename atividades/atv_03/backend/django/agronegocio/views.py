@@ -28,6 +28,6 @@ class Uso_InsumoViewSet(ModelViewSet):
     serializer_class = uso_insumoSerializer
 
 class FuncionarioViewSet(ModelViewSet):
-    queryset = Funcionario.objects.all()
-    serializer_class = FuncionarioViewSet
+    queryset = funcionario.objects.all()
+    serializer_class = funcionarioSerializer
 

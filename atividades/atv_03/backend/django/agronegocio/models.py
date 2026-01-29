@@ -32,7 +32,7 @@ class insumo(models.Model):
         return f'{self.nome} - {self.unidade}'
 
 class usoInsumo(models.Model):
-    quantidade = models.DecimalField(max_digits=1000, decimal_places=2)
+    quantidade = models.DecimalField(max_digits=10, decimal_places=2)
     data = models.DateField()
     plantio = models.ForeignKey(plantio, on_delete=models.PROTECT, related_name='Uso_de_Insumos')
     insumo = models.ForeignKey(insumo, on_delete=models.PROTECT, related_name='Uso_de_insumos')

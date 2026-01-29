@@ -26,8 +26,8 @@ router.register(r'Culturas', CulturaViewSet)
 router.register(r'Plantios', PlantioViewSet)
 router.register(r'Colheitas', ColheitaViewSet)
 router.register(r'Insumos', InsumoViewSet)
-router.register(r'Uso de insumos', Uso_InsumoViewSet)
-router.register(r'Funcionários', FuncionarioViewSet)
+router.register(r'Uso_de_insumos', Uso_InsumoViewSet)
+router.register(r'Funcionarios', FuncionarioViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
