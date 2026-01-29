@@ -1,0 +1,15 @@
+[project]
+name = "moveleira"
+version = "0"
+description = "Default template for PDM package"
+authors = [
+    {name = "davi-prussek", email = "davi.mariano.prussek0916@gmail.com"},
+]
+dependencies = ["django>=4.2.27"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "mit"}
+
+
+[tool.pdm]
+distribution = false
