@@ -1,1 +1,1 @@
-SHOW TABLEs from atividade_02
+/* Este arquivo tem o uso destinado somente para controlar o banco de dados pelo vscode*/
