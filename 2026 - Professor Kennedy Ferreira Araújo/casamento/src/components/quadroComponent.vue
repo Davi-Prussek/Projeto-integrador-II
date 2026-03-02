@@ -1,5 +1,5 @@
 <template>
-  <section class="quadros" id="quadros">
+  <section class="quadros">
     <ul>
       <li class="quadro-I">
         <h3>OUR STORY</h3>

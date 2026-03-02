@@ -9,8 +9,8 @@
 footer {
   text-align: center;
   font-family: 'Aboreto';
-  font-size: 3.2vw;
-  padding-inline: 30vw;
+  font-size: 2.7vw;
+  padding-inline: 35vw;
   h2 {
     cursor: pointer;
     color: black;
@@ -18,6 +18,7 @@ footer {
     margin-bottom: 2vw;
   }
   p {
+    font-weight: bolder;
     margin: 1.8vw;
   }
 }

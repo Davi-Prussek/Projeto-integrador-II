@@ -17,7 +17,7 @@ main .information {
     justify-content: center;
     padding-inline: 8vw;
     gap: 5vw;
-    margin-bottom: 6vw;
+    margin-bottom: 8vw;
     img {
       flex: 1;
       width: 40%;

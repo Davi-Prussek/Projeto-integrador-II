@@ -1,5 +1,5 @@
 <template>
-    <section class="hello" id="hello">
+    <section class="hello">
       <h1>JENNY & JASON</h1>
       <p>
         On the other hand, we denounce with righteous indignation and dislike men who are so
