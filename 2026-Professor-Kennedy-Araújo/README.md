@@ -1,4 +1,4 @@
-# 2026 - Projeto Integrador II - Kennedy Ferreira Aráujo
+# 2026 - Projeto Integrador II - Kennedy Aráujo
 
 ### Esta pasta possui as atividades do ano letivo do professor Kennedy Araújo.
 
